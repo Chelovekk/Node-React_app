@@ -1,0 +1,26 @@
+{
+  "name": "granit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "runClient": "npm app.js",
+    "server": "nodemon app.js",
+    "client":"npm run start --prefix client"
+  },
+  "author": "vadim",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.19",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "cuncurrentrly":"^5.0.2"
+  }
+}
